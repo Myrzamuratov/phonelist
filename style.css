@@ -1,0 +1,161 @@
+.createSide {
+  width: 400px;
+  height: 430px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.create-name p,
+.create-phone p,
+.create-email p,
+.create-adress p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-name,
+.input-phone,
+.input-email,
+.input-adress {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.input-phone,
+.input-adress {
+  height: 40px;
+}
+
+.create-btn {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* ЛИСТ */
+.phone-list {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.contact-list {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+}
+.list-div {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  list-style-type: none;
+}
+
+.list-div li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.list-div button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.list-div button.edit-btn {
+  background-color: #4caf50;
+}
+
+.list-div button:hover {
+  background-color: #ff6655;
+}
+
+.list-div button.edit-btn:hover {
+  background-color: #4caf50;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: white;
+  border: 1px solid black;
+  z-index: 9999;
+}
+
+.closer {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.modal-closer {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal-closer:hover {
+  color: red;
+}
+
+.modal p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.modal input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.btn-change {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-change:hover {
+  background-color: #3e8e41;
+}
